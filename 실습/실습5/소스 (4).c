@@ -1,0 +1,30 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <string.h>
+#include <stdio.h>
+
+int main() {
+	char num[30];
+	char result[50] = "";
+	int i = 0;
+	int count = 0;
+	
+	gets(num);
+
+	while (strlen(num) - (i + 1) >= 0) {
+		for (int j = 0; j < 3; j++) {
+			result[i + count] = num[strlen(num) - (i + 1)];
+			i++;
+
+			if (strlen(num) - (i + 1) < 0)
+				break;
+		}
+
+		result[i + count] = ',';
+		count++;
+	}
+
+	for (i = strlen(result) - 1; i >= 0; i--)
+		printf("%c", result[i]);
+	printf("\n");
+
+}
