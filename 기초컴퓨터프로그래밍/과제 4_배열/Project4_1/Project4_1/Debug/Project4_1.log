@@ -1,0 +1,4 @@
+﻿  project4_1.c
+d:\중앙대학교 2-1\기초컴퓨터프로그래밍\과제4\project4_1\project4_1\project4_1.c(14): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\중앙대학교 2-1\기초컴퓨터프로그래밍\과제4\project4_1\project4_1\project4_1.c(15): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Project4_1.vcxproj -> D:\중앙대학교 2-1\기초컴퓨터프로그래밍\과제4\Project4_1\Debug\Project4_1.exe
